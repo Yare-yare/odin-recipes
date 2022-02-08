@@ -3,6 +3,8 @@
     <head>
         <title>Odin-recipes</title>
         <meta charset= "utf-8">
+        <!--This method of adding css to an html file is known as, (EXTERNAL METHOD).-->
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <strong><h1>Odin-recipes!</h1></strong>
@@ -12,5 +14,44 @@
             <li><a href="file:///home/musta/repos/odin-recipes/recipes/chilli-fries.html">Chili Fries</a></li>
             <li><a href="file:///home/musta/repos/odin-recipes/recipes/icecream-cake.html">Icecream-cake</a></li>
         </ul>
+        <p class="odd-numbers">Number 1 - I'm a class!</p>
+        <div id="Blue-text">Number 2 - I'm one ID.</div>
+        <p class="Odd-numbers-2">Number 3 - I'm a class, but cooler!</p>k
+        <div id="Green">Number 4 - I'm another ID.</div>
+        <p class="Odd-numbers-3">Number 5 - I'm a class!</p>
+        <button class="black-background-click-me">Click Me!</button>
+        <button class="No-click-me">No, Click Me!</button>
+        <!--This is how adding an image to css looks like! Also, this is how to chain selectors-->
+    <div>
+        <img class="avatar" img src="../odin-recipes/recipes/avatar.png" alt="This is avatar">
+        <img class="proportioned" img src="../odin-recipes/recipes/proportion.png" alt="This is proportioned">
+    </div>
+        <p>************</p>
+     <div>
+        <img class="avatar-original" img src="recipes/avatar.png" alt="This is avatar">
+        <img class="distorted" img src="../odin-recipes/recipes/proportion.png" alt="This is proportioned">
+     </div> 
+        <p>######</p>
+        <!--This is what it looks like to use decendant combinators--> 
+        <div class="container">
+            <p class="text">This should be styled.</p>
+          </div>
+          <p class="text">This should be unstyled.</p>
+          <p class="text">This should be unstyled.</p>
+          <div class="container">
+            <p class="text">This should be styled.</p>
+            <p class="text">This should be styled.</p>
+          </div>
+          <p class="box">This is a demo box</p>
+          <!--This is the css repository assignment, (part one!!!)-->
+        <div class="one">DIV ONE</div>
+        <div class="two">DIV TWO</div>
+        <div class="three">DIV THREE</div>
+        <!--This is the css repository assignment, (part two!!!)--> <!--Incase you need help with decendant combinator, this is how it was used to create a card!-->
+       <div class="card">
+           <h1 class="title">I'm a card</h1>
+           <div class="content">I have content inside me..lorem ipsum blah blah blah. Here's some stuff you need to read</div>
+           <div class="big-button">and a <button>BIG BUTTON!</button></div>
+        </div>
     </body>
 </html>
